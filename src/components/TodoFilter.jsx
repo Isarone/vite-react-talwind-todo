@@ -14,7 +14,7 @@ return (
       <button className={`${filter ==='completed'
                   ?'text-blue-500 hover:text-blue-400'
                   :'text-gray-400 hover:text-blue-500'}`}  
-                  onClick={()=>changeFilter('completed')}>Completado</button>
+                  onClick={()=>changeFilter('completed')}>Completed</button>
     </div>
   </section>
 )
